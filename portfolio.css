@@ -1,0 +1,10 @@
+nav{
+    border-style: none;
+    text-align: right;
+}
+
+.nav_a{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
+    color: rgb(101, 177, 196);
+}
