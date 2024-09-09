@@ -13,13 +13,52 @@
 <body style="background-color: rgb(19, 4, 34);">
 
         <aside>
-            <nav>
+            <!-- <nav>
                 <a href=""></a>&nbsp;&nbsp;&nbsp;
-                <a href="index.html"><img class="zoom" src="./icons8-home-96.png" alt=""></a>&nbsp;&nbsp;&nbsp;
-                <a href=""><img class="zoom" src="./icons8-project-100.png" alt=""></a>&nbsp;&nbsp;&nbsp;
-                <a href=""><img class="zoom" id="ab_me" src="./icons8-about-me-100.png" alt=""></a>&nbsp;&nbsp;&nbsp;
-                <a href=""><img class="zoom" src="./icons8-mail-96.png" alt=""></a>&nbsp;&nbsp;&nbsp;
+                <a href="index.html"><img class="zoom" src="./icons8-home-96.png" alt="" ></a>&nbsp;&nbsp;&nbsp;
+                <div class="side-bar">
+                    <a class="side-bar-title1">Home</a>
+                </div>
+                <a href=""><img class="zoom" src="./icons8-project-100.png" alt="" ></a>&nbsp;&nbsp;&nbsp;
+                <div class="side-bar">
+                    <a class="side-bar-title2">Project</a>
+                </div>
+                <a href=""><img class="zoom" id="ab_me" src="./icons8-about-me-100.png" alt="" ></a>&nbsp;&nbsp;&nbsp;
+                <div class="side-bar">
+                    <a class="side-bar-title3">Contact</a>
+                </div>
+                <a href=""><img class="zoom" src="./icons8-mail-96.png" alt="" ></a>&nbsp;&nbsp;&nbsp;
+                <div class="side-bar">
+                    <a class="side-bar-title4">Gmail</a>
+                </div>
+            </nav> -->
+            <nav>               
+                <div class="nav-item" style="margin-top: 20px; margin-bottom: 20px;">
+                    <a href="index.html"><img class="zoom" src="./icons8-home-96.png" alt="Home"></a>
+                    <div class="side-bar">
+                        <a class="side-bar-title1">Home</a>
+                    </div>
+                </div>
+                <div class="nav-item" style="margin-bottom: 20px;">
+                    <a href="projects.html"><img class="zoom" src="./icons8-project-100.png" alt="Project"></a>
+                    <div class="side-bar">
+                        <a class="side-bar-title2">Project</a>
+                    </div>
+                </div>
+                <div class="nav-item" style="margin-bottom: 20px;">
+                    <a href="contact.html"><img class="zoom" id="ab_me" src="./icons8-about-me-100.png" alt="Contact"></a>
+                    <div class="side-bar">
+                        <a class="side-bar-title3">Contact</a>
+                    </div>
+                </div>
+                <div class="nav-item" style="margin-bottom: 20px;">
+                    <a href="mailto:someone@example.com"><img class="zoom" src="./icons8-mail-96.png" alt="Gmail"></a>
+                    <div class="side-bar">
+                        <a class="side-bar-title4">Gmail</a>
+                    </div>
+                </div>
             </nav>
+            
         </aside>
         <div id="head_para" style="color: aliceblue;" >
             <a id="online"></a>
@@ -33,14 +72,22 @@
              </p>
             <hr style="margin-bottom: 4%;">
             <h2 class="hover-underline-animation">My Timeline</h2>
+
             <div class="container">
                 <div class="timeline">
                     <ul>
                         <li>
                             <div class="timeline-containt">
-                                <h2 class="date">June 05, 2022 - April 25, 2023</h2>
+                                <h2 class="date">June 14, 2023 - March 30, 2024</h2>
                                 <h1 class="hover-underline-animation">Full-stack developer</h1>
                                 <p>Qspiders, Pune <br>Java Full-stack development course.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-containt">
+                                <h2 class="date">January 10, 2022 - November 25, 2022</h2>
+                                <h1 class="hover-underline-animation">Apprenticeships</h1>
+                                <p>Mahindra & Mahindra Limited, Nagpur <br>Work as a Supervisor at Mahindra.</p>
                             </div>
                         </li>
                         <li>
@@ -67,42 +114,18 @@
                     </ul>
                 </div>
             </div>
+
+
             <hr style="margin-bottom: 3%;">
             <h2 class="hover-underline-animation">Projects</h2>
-            <pre>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            </pre>
+            <br>
+            <span class="loader"></span>
             <br><br>
+
             <hr style="margin-bottom: 3%;">
-            <h2 class="hover-underline-animation" style="margin-bottom: 25px;">Tech</h2>
+
+
+            <!-- <h2 class="hover-underline-animation" style="margin-bottom: 25px;">Tech</h2>
             <div class="tech_container">
                 <div class="tech_box"><br>
                     <img src="icons8-java-480.png" alt="" style="width: 45%; height: 76px;" class="center">
@@ -140,8 +163,60 @@
                     <img src="icons8-javascript-480.png" alt="" style="width: 45%; height: 76px;" class="center">
                     <h3 class="center" style="padding-bottom: 10px;">&nbsp;JavaScript</h3>
                 </div>   
-            </div>
+            </div> -->
+
+            <h2 class="hover-underline-animation" style="margin-bottom: 25px;">Tech</h2>
+<div class="tech_container">
+    <div class="tech_box">
+        <img src="icons8-java-480.png" alt="Java" class="tech-icon center">
+        <h3 class="center tech-title">Java</h3>
+    </div>
+    <div class="tech_box">
+        <img src="icons8-java-480.png" alt="J2SE" class="tech-icon center">
+        <h3 class="center tech-title">J2SE</h3>
+    </div>
+    <div class="tech_box">
+        <img src="icons8-database-100.png" alt="SQL" class="tech-icon center">
+        <h3 class="center tech-title">SQL</h3>
+    </div>
+    <div class="tech_box">
+        <img src="icons8-spring-boot-logo-480.png" alt="Spring Boot" class="tech-icon center">
+        <h3 class="center tech-title">Spring Boot</h3>
+    </div>
+    <div class="tech_box">
+        <img src="hibernate-icon.svg" alt="Hibernate" class="tech-icon center">
+        <h3 class="center tech-title">Hibernate</h3>
+    </div>
+    <div class="tech_box">
+        <img src="icons8-react-js-480.png" alt="React JS" class="tech-icon center">
+        <h3 class="center tech-title">React JS</h3>
+    </div>
+    <div class="tech_box">
+        <img src="icons8-html-480.png" alt="HTML" class="tech-icon center">
+        <h3 class="center tech-title">HTML</h3>
+    </div>
+    <div class="tech_box">
+        <img src="icons8-css-480.png" alt="CSS" class="tech-icon center">
+        <h3 class="center tech-title">CSS</h3>
+    </div>
+    <div class="tech_box">
+        <img src="icons8-javascript-480.png" alt="JavaScript" class="tech-icon center">
+        <h3 class="center tech-title">JavaScript</h3>
+    </div>
+</div>
+
             <br><br>
+
+
+
+
+
+
+
+
+
+
+
             <hr style="margin-bottom: 3%;">
             <h2 class="hover-underline-animation" style="margin-bottom: 25px;">Uses</h2>
             <div class="tech_container">
@@ -158,8 +233,8 @@
                     <h3 class="center" style="padding-bottom: 10px;">&nbsp;&nbsp;Postman</h3>
                 </div>
                 <div class="tech_box"><br>
-                    <img src="icons8-javascript-480.png" alt="" style="width: 45%; height: 76px;" class="center">
-                    <h3 class="center" style="padding-bottom: 10px;">&nbsp;JavaScript</h3>
+                    <img src="icons8-javascript-480.png" alt="" style="width: 45%; height: 55px;" class="center">
+                    <h3 class="center" style="padding-bottom: 10px;">MySQL Workbench</h3>
                 </div> 
                 <div class="tech_box"><br>
                     <img src="icons8-javascript-480.png" alt="" style="width: 45%; height: 76px;" class="center">
