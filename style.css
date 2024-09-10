@@ -9,6 +9,7 @@ body {
     padding: 0;
     min-height: 100vh;
     font-family: 'Times New Roman';
+    background-color: rgb(19, 4, 34);
 }
 
 #left-side-container, #right-side-container {
