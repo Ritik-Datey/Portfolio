@@ -60,6 +60,9 @@ nav {
         margin: 0;
         padding: 0;
     }
+    body{
+        padding: 50px;
+    }
     nav {
         width: auto;
         height: auto;
